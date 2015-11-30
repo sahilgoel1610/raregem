@@ -1,0 +1,10 @@
+Description:
+    This generates a file in onetimer folder with a timestamp as suffix.
+    Inside this file there is a method "run_once" which would be run once per developer.
+    Make sure you enter all your code inside this run_once function. Treat this as your "main" function.
+
+Example:
+    rails generate onetimer Thing
+
+    This will create:
+        Thing201511118888.rb
